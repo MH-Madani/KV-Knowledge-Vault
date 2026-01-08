@@ -5,15 +5,43 @@
 }
 
 
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
 
+}
 
+/* shared style */
+.btn {
+    padding: 12.5px 16px;
+    background-color: #30b868;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links ul{
+    display: flex; 
+    gap: 32px;
+    align-items: center;
+    padding-top: 10px;
+}
+.nav-links li{
+    list-style: none;
+}
 
-
-
-
-
-
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+}
 
 
 
