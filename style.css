@@ -209,6 +209,7 @@ header {
     width: 370px;
     height: 320px;
     border: 1px solid #E1E8ED;
+    border-bottom: none;
     border-radius: 8px;
 }
 
