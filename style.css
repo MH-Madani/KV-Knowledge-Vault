@@ -22,6 +22,12 @@
     border-radius: 4px;
     cursor: pointer;
 }
+.btn i {
+    padding: 10px;
+ }
+.btn-1 i {
+    padding-right: 10px;
+ }
 
 .section-heading {
     font-size: 48px;
@@ -296,15 +302,53 @@ header {
     max-width: 700px;
     margin-bottom: 24px;
 }
+ .content-copyright p {
+    margin-top: 16px;
+ }
 
-.page-container-3 .content-button .btn {
-    padding: 16px;
-    margin-bottom: 16px;
-}
+ footer {
+    background-color: #1b1b1b;
+    color: white;
+    height: 348px;
+ }
+ .footer-content {
+    width: 80%;
+    max-width: 1560px;
+    margin: 0 auto;
+    display: flex;
+    padding: 120px 120px 30px 120px;
+ }
+
+ .footer-logo {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1001px;
+    margin-bottom: 110px;
+ }
+
+ .footer-copyright {
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+ }
+ 
 
 .s-links img {
     width: 20px;
     height: 20px;
     border: 2px solid none;
     border-radius: 1000px;
+}
+
+.s-text h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+}
+
+.content-copyright img{
+    width: 10px;
+    height: 10px;
 }
