@@ -301,3 +301,10 @@ header {
     padding: 16px;
     margin-bottom: 16px;
 }
+
+.s-links img {
+    width: 20px;
+    height: 20px;
+    border: 2px solid none;
+    border-radius: 1000px;
+}
